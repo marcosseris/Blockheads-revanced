@@ -1,0 +1,15 @@
+# Never commit the game itself or anything derived from it
+*.apk
+*.apks
+*.xapk
+input/
+work/
+out/
+
+# Downloaded tooling and signing keys
+tools/*.jar
+*.keystore
+*.jks
+
+__pycache__/
+*.pyc
